@@ -1,0 +1,251 @@
+.wrapper{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+   
+    /* background-color: #f5f5f5; */
+    position: absolute;
+    right: 0px;
+    height: 90VH;
+  
+}
+.wrapper  h1{
+    color:rgb(5, 0, 0);
+    margin-left: 30px;
+transform: translate(0px, 70px);
+    font-size: 2.33rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+font-family: Audiowide;
+
+}
+.wrapper p{
+    color:#4A4A4A;
+    margin-left: 30px; 
+    word-spacing: 1.25px; 
+    font-size: .83rem;
+  margin-top: 90px;
+    padding-right: 10vw;
+font-family: Roboto;
+word-break: keep-all;
+line-height: 18px;
+transform: scaleY(1.14);
+}
+.star{
+    margin-left: 30px;
+
+  
+}
+.rating{
+    display: flex;
+    transform: translate(0px, 8px);
+    justify-content: start;
+    align-items: center;
+    
+}
+.css-1qqgbpl-MuiRating-root{
+    color: rgba(0, 0, 0, 0.77) !important;
+}
+.span{
+    font-size: .75rem;
+    margin-left: 10px;
+    text-align: center;
+    font-weight: 800;
+    color: #753258;
+    font-family: Roboto Mono;
+}
+.price{
+    margin-left: 30px;
+    width:10vw;
+    height: 7.2VH;
+   margin-top: 25px;
+   font-size: 1.02rem;
+    border-radius: 3px;
+    background-color: #753258;
+ border-style: none;
+    color: white;
+    font-weight: 400;
+    font-family: Audiowide;
+}
+.counter{
+    margin-left: 30px;
+    width:27vw;
+    height: 7.2VH;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   margin-top: 15px;
+    border-radius: 3px;
+    background-color: #D9D9D9;
+ border-style: none;
+    color: #753258;
+    font-weight: 600;
+}
+.addcart{
+    margin-left: 30px;
+    width:27vw;
+    height: 7.2VH;
+  display: flex;
+  justify-content: center;
+align-items: center;
+ 
+text-align: center;
+   margin-top: 15px;
+    border-radius: 3px;
+    background-color: #FFD2FF;
+ border-style: none;
+    color: #753258;
+    font-weight: 600;
+    font-family: Roboto Mono;
+    letter-spacing: 0px;
+  
+}
+.sup{
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.btn{
+    position: absolute;
+    right: 40px;
+    TOP: 20PX;
+    /* width:10vw;
+    height: 7vh;
+   margin-top: 15px;
+   border-top-left-radius: 13px;
+   border-bottom-right-radius: 13px;
+   border-bottom-left-radius: 3px;
+
+   border-top-right-radius: 3px;
+    background-color: #220515; */
+ border-style: none;
+    color: white;
+    font-weight: 800;
+    font-size: 1.82rem;
+    z-index:9;
+    filter: grayscale(200);
+  
+    transform: scaleY(0.74);
+   
+}
+.inn{
+    justify-content: center;
+    align-items: center;
+ 
+    text-align: center;
+    font-size: .81rem;
+width: max-content;
+    margin: 10PX;
+    font-weight: 600;
+    
+
+  
+}
+.svg{
+  transform: translate(0px, 8px);
+  color: #753258;
+  padding-right: 4px;
+ 
+}
+.producthelper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 27vw;
+    margin-left: 30px;
+  scale: .9;
+    gap: 20px;
+
+}
+
+
+
+
+    @media screen and (max-width: 768px){
+.wrapper{
+    width: 100vw;
+    transform: translateY(75vh);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.wrapper h1{
+    margin-left: 0px;
+    font-size: 1.8rem;
+}
+.wrapper p{
+    font-size: .73rem;
+    text-overflow: ellipsis;
+
+}
+.rating{
+    flex-direction: column;
+}
+.star{
+    scale: 1.62;
+    margin-left: 0px;
+}
+.span{
+    margin-left: 0px;
+    margin-top: 10px;
+    font-size: .9rem;
+}
+.price{
+    margin-left: 0px;
+    width:90vw;
+    height: 5.2VH;
+   margin-top: 25px;
+}
+.counter{
+
+    width:90vw;
+    height: 5.2VH;
+   margin-top: 10px;
+   font-weight: 800;
+
+   margin-left: 5vw;
+}
+.addcart{
+    width:90vw;
+    height: 5.2VH;
+   margin-top: 10px;
+   font-weight: 800;
+
+   margin-left: 5vw;
+}
+.producthelper{
+    width:90vw;
+    height: 5.2VH;
+   margin-top: 10px;
+   font-weight: 800;
+
+   margin-left: 0vw;
+   scale: .85;
+}
+.btn{
+    position: absolute;
+    right: 10px;
+    transform: translateY(-70vh);
+    /* width:10vw;
+    height: 7vh;
+   margin-top: 15px;
+   border-top-left-radius: 13px;
+   border-bottom-right-radius: 13px;
+   border-bottom-left-radius: 3px;
+
+   border-top-right-radius: 3px;
+    background-color: #220515; */
+ border-style: none;
+    color: white;
+    font-weight: 800;
+    font-size: 1.52rem;
+    z-index:9;
+    filter: grayscale(200);
+  
+    
+}
+}
