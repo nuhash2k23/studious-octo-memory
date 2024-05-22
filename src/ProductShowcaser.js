@@ -1,11 +1,11 @@
 import { Canvas, useFrame } from '@react-three/fiber'
-import React, { Suspense, useRef, useState } from 'react'
+import React, { useRef, useState } from 'react'
 import { Model } from './ModelFurniture'
 import './Productshowcaser.css';
 import {easing} from 'maath'
 import {state} from './store';
 import {ARButton, XR,} from '@react-three/xr';
-import { AccumulativeShadows, Center, Environment, Html, OrbitControls, RandomizedLight } from '@react-three/drei'
+import { AccumulativeShadows, Center, Environment,  OrbitControls, RandomizedLight } from '@react-three/drei'
 import { useSnapshot } from 'valtio';
 import {motion} from 'framer-motion'
 const ProductShowcaser = ({position=[5,0, 6.5, 6], fov= 70}) => {
@@ -15,7 +15,7 @@ const cam = useRef()
   const handleSessionEnd = (event) => {
     // Handle session end event
     // const cameraPosition = cam.current.camera.position;
-    const cameraFov = cam.current.children;
+    // const cameraFov = cam.current.children;
 
     state.arimpact = true;
   };

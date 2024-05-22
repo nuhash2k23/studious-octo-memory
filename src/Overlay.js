@@ -1,5 +1,5 @@
 import { state } from "./store"
-import {motion} from 'framer-motion';
+// import {motion} from 'framer-motion';
 import './Overlay.css';
 export default function Overlay(){
     // const placeholder = [' #344344 , #c498he, #f067ee, #58u34e' ]
