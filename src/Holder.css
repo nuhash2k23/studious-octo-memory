@@ -165,13 +165,16 @@ width: max-content;
     @media screen and (max-width: 768px){
 .wrapper{
     width: 100vw;
-    transform: translateY(75vh);
+    transform: translateY(100vh);
     position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.inside{
+    transform: translateY(-25vh);
 }
 .wrapper h1{
     margin-left: 0px;
@@ -220,9 +223,9 @@ width: max-content;
 .producthelper{
     width:90vw;
     height: 5.2VH;
-   margin-top: 10px;
-   font-weight: 800;
 
+   font-weight: 800;
+   transform: translateY(-27vh);
    margin-left: 0vw;
    scale: .85;
 }

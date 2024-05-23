@@ -48,7 +48,7 @@ transition={{ duration:1.4, delay: 1}}
 state.frontimpact = true
 }}> 🔙 </button>
       </div>
-      <div>
+      <div className='inside'>
         <h1>BEACH RELAXER</h1>
         <p>
           Picture yourself sinking into the plush cushions of the Beach Relaxer after a long day, feeling the stress
