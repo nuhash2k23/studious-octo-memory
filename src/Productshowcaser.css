@@ -44,3 +44,12 @@ padding: 0;
 }
 
 }
+@media screen and (max-width: 500px){
+  .ar{
+    margin-top: 10vh;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+  }
+    
+    }
